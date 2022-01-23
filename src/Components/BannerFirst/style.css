@@ -1,0 +1,149 @@
+li {
+    text-decoration: none;
+    list-style-type: none; 
+}
+.banner{
+    background-image: url('../../img/banner-image.jpg');
+    border-radius: 5rem ;
+}
+.sreen-top{
+
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+}
+
+.sreen-top.proper-choice {
+
+    display: flex;
+    justify-content: left;
+    
+    
+}
+
+.sreen-top.proper-choice.abs {
+
+    width: 50%;
+    margin-top: 6rem;
+
+}
+
+.asd {
+    
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    font-size: 25px;
+    max-width: 40rem;
+}
+.asd h1{
+
+    display: flex;
+    text-align: left;
+    padding-bottom: 2rem;
+    color: #110229;
+}
+.asd span{
+    display: flex;
+    text-align: left;
+    padding-bottom: 4rem;
+    color:#585981;
+    
+}
+.sreen-top.proper-choice.abs div ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+
+.sreen-top.proper-choice.abs div ul li button{
+    padding: .75rem 2rem;
+    text-decoration: none;
+    border-radius: 1rem 1rem 0 0;
+    background :white;
+    font-size: 80%;
+    border: 1px solid white;
+    font-weight: 400;
+    color: #110229;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.group-choice {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 50rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    height: 8rem;
+} 
+.form-banner{
+    width: 100%;
+}
+.form-banner div{
+    display: flex;
+    justify-content: space-between;
+}
+.form-banner div div{
+    margin: 0 1rem 0 1rem;
+    
+}
+.pre-place{
+    display: flex;
+    flex-direction:column;
+
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 95%;
+    font-weight: 800;
+    color: #110229;
+}
+.pre-place label{
+    margin-bottom: .5rem;
+    color: #110229;
+}
+.pre-place select {
+    text-indent: 1rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 18px;
+    border-radius: 1rem;
+    border: 1px solid #d0d0e3;
+    color: #d0d0e3;
+    cursor: pointer;
+}
+select *    {width: 14em;
+    padding: 0 1em;
+    text-indent: 0;
+    line-height: 2em;
+    color: #d0d0e3;
+    font-size: 80%;
+    
+}
+.btn-search{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+    height: 6rem;
+}
+.btn-search div {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:4rem;
+    width:4rem;
+    color: #585981;
+    border: 1rem solid #1daeff;
+    background-color: #1daeff;
+    border-radius: 1rem;
+    
+}
+.btn-search div svg{
+    
+    height: 2rem;
+    width:  2rem;
+    color: white;
+}

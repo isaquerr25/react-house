@@ -1,0 +1,39 @@
+.conteiner-country{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 32rem;
+
+}
+.conteiner-country div{
+    transform:translateX(0) scale(0.95);
+    
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: 0.1s;
+}
+.conteiner-country div:hover{
+    
+    transform: translateY(-20px) scale(1);
+    
+}
+.conteiner-country div img{
+    cursor: pointer;
+    position: absolute;
+    border-radius: 2rem;
+    z-index: -1;
+}
+
+.conteiner-country div label{
+    cursor: pointer;
+    padding-top: 2rem;
+    width: 11rem;
+    letter-spacing: 4px;
+    font-weight: 800;
+    font-size: 25px;
+    color: #110229;
+}
+

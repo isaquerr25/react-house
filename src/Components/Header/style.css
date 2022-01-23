@@ -17,13 +17,13 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
+    box-shadow: 3px 1px 13px -1px rgba(0,0,0,0.34);
 }
 .container-menu ul{
     margin-right: auto;
     margin-left: auto;
     width: 50%;
-    background-color: rgb(235, 12, 12);
+
     display: flex;
     justify-content : space-between;
 }
@@ -34,14 +34,14 @@ a {
 .logo{
     margin-right: auto;
     padding: 1.5rem;
-    background-color: rgb(235, 12, 12);
 }
 .btn a{
     margin-left: auto;
     padding: 1.25rem 2.25rem ;
     border-radius: 1rem;
+    border: 5px solid aqua;
     margin-right: 1rem;
-    background-color: rgb(235, 12, 12);
+    color: aqua;
 } 
 .menu li {
     display: inline-block;
